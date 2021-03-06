@@ -9,9 +9,53 @@
 </head>
 
 <body>
-    <div>
-        <p>Hello World!</p>
-    </div>
+    <main>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please enter the survey information</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" placeholder="name" required />
+
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="email" required />
+
+            <label id="number-label" for="number">Number</label>
+            <input id="number" type="number" placeholder="Age" min="0" max="200">
+
+            <select name="" id="dropdown">
+                <option value="ironman">Ironman</option>
+                <option value="spiderman">Spiderman</option>
+                <option value="thor">Thor</option>
+            </select>
+
+            <div>
+                <label for="ironman">Ironman</label>
+                <input type="radio" name="superhero" value="ironman">
+
+                <label for="spiderman">Spiderman</label>
+                <input type="radio" name="superhero" value="spiderman">
+
+                <label for="ultron">Ultron</label>
+                <input type="radio" name="villan" value="ultron">
+
+                <label for="loki">Loki</label>
+                <input type="radio" name="villan" value="loki">
+            </div>
+
+
+            <input type="checkbox" value="True">
+            <input type="checkbox" value="False">
+
+            <textarea>
+
+            </textarea>
+
+            <button id="submit" type="submit">Submit</button>
+        </form>
+
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
