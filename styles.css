@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 3%;
+    font-family: 'Montserrat';
+    box-shadow: 0px 0px 5px 5px #eeeeef;
+    border-radius: 10px;
+}
+
+#mainContainer {
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+#nature-image {
+    width: 100%;
+    height: 87vh;
+    object-fit: cover;
+    position: relative;
+    left: -1.9%;
+    border-radius: 10px;
+}
+
+/* GRID RIGHT SIDE */
+
+
+/* 
+#822659
+#b34180
+#e36bae
+#f8a1d1 
+*/
+
+
+.grid-right {
+    text-align: center;
+    padding: 2em;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: #b34180;
+}
+
+.input-div {
+    display: block;
+}
+
+.input-div input {
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 3em;
+    margin: 10px 0px;
+
+    width: 350px;
+}
+
+.input-div label {
+    position: relative;
+    left: -3em;
+    font-weight: bold;
+    color: #b34180;
+}
+
+#email-label {
+    position: relative;
+    left: -3.2em;
+}
+
+#number-label {
+    position: relative;
+    left: -3.55em;
+}
+
+#number {
+    position: relative;
+    left: 0.4em;
+}
+
+#hero-label {
+    position: relative;
+    left: -3.3em;
+    font-weight: bold;
+    color: #b34180;
+    
+}
+
+#hero-label-div {
+    position: relative;
+    top: 30px;
+}
+
+select {
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    height: 3em;
+
+    width: 240px;
+}
+
+#gender-label {
+    position: relative;
+    left: -8.4em;
+    font-weight: bold;
+    color: #b34180;
+}
+
+.gender-main-div {
+    margin: 15px;
+}
+
+#gender-male-label {
+    margin-left: 12px;
+}
+
+#gender-female-label {
+    margin-left: 20px;
+}
+
+#type-label {
+    position: relative;
+    left: -5.6em;
+    font-weight: bold;
+    color: #b34180;
+}
+
+#type-student-label {
+    margin-left: 76px;
+}
+
+#type-employee-label {
+    margin-left: 20px;
+}
+
+#description-label {
+    position: relative;
+    left: -3.2em;
+    font-weight: bold;
+    color: #b34180;
+    top: -2.5em;
+}
+
+#textarea-input {
+    border-radius: 5px;
+    width: 300px;
+}
+
+#awesome-label {
+    position: relative;
+    left: -5.1em;
+    font-weight: bold;
+    color: #b34180;
+}
+
+#submit {
+    position: relative;
+    left: 1.7em;
+    width: 350px;
+    border-radius: 5px;
+    padding: 5px 0px;
+    border: none;
+    background-color: #b34180;
+    color: #fff;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    
+}
