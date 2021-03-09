@@ -36,7 +36,7 @@
                         <input id="email" type="email" placeholder="Email" required />
                     </div>
 
-                    <div class="input-div">
+                    <div class="input-div number-div">
                         <label id="number-label" for="number">Age</label>
                         <input id="number" type="number" placeholder="Age" min="0" max="200">
                     </div>
@@ -60,7 +60,7 @@
                         <input type="radio" name="gender" value="Female">
                     </div>
 
-                    <div class="gender-main-div">
+                    <div class="gender-main-div type-main-label">
                         <label id="type-label" for="hero">Type</label>
                         <label id="type-student-label" for="student">Student</label>
                         <input type="radio" name="type" value="Student">
@@ -69,7 +69,7 @@
                         <input type="radio" name="type" value="Employee">
                     </div>
 
-                    <div>
+                    <div class="gender-main-div awesome-main-label">
                         <label id="awesome-label" for="hero">Awesomeness</label>
 
                         <label id="type-employee-label" for="cool">Cool</label>
@@ -79,13 +79,15 @@
                         <input type="checkbox" value="False">
                     </div>
 
-
-                    <div>
+                    <div id="description-main-label">
                         <label id="description-label" for="hero">Description</label>
                         <textarea id="textarea-input" placeholder="Tell us about you :)"></textarea>
                     </div>
 
-                    <button id="submit" type="submit">Submit</button>
+                    <div id="submitDiv">
+                        <button id="submit" type="submit">Submit</button>
+                    </div>
+
                 </form>
             </div>
         </div>

@@ -10,11 +10,6 @@ body {
     border-radius: 10px;
 }
 
-#mainContainer {
-    /* display: flex;
-    justify-content: space-between; */
-}
-
 #nature-image {
     width: 100%;
     height: 87vh;
@@ -176,5 +171,100 @@ select {
 }
 
 @media screen and (max-width: 600px) {
-    
+    #nature-image {
+        width: 99%;
+        height: 55vh;
+        object-fit: cover;
+        position: relative;
+        top: 2%;
+        left: 0%;
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+    #submitDiv {
+        position: relative;
+        left: -8%;
+    }
+
+    #submit {
+        background-color: #b34180;
+       color: #fff;
+        width: 50%;
+    }
+
+    #name-label {
+        position: relative;
+        left: -38%;
+    }
+
+    #email-label {
+        position: relative;
+        left: -38%;
+    }
+
+    #number-label {
+        display: block;
+        position: relative;
+        left: -37.5%;
+    }
+
+    .number-div {
+        position: relative;
+        left: -2%;
+    }
+
+    .hero-label-div {
+        position: relative;
+        left: -14%;
+    }
+
+    #hero-label {
+        display: block;
+        left: -13%;
+    }
+
+    #gender-male-label {
+        display: relative;
+        left: -253%;
+    }
+
+    .gender-main-div {
+        margin-left: -192px;
+    }
+
+    #gender-label {
+        display: block;
+        left: -8%;
+    }
+
+    .type-main-label {
+        margin-left: -215px;
+    }
+
+    #type-label {
+        display: block;
+        left: -7%;
+    }
+
+    .awesome-main-label {
+        margin-left: -160px;
+    }
+
+    #awesome-label {
+        display: block;
+        left: -5%;
+    }
+
+    #description-label {
+        display: block;
+        left: -26%;
+        top: 5%;
+    }
+
+    #description-main-label {
+        position: relative;
+        left: -6%;
+    }
+
 }
